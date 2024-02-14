@@ -1,6 +1,5 @@
 // See https://github.com/typicode/json-server#module
 const jsonServer = require('json-server')
-const cors = require('cors')
 
 const server = jsonServer.create()
 
@@ -18,15 +17,6 @@ const router = jsonServer.router(db)
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
-
-app.use(
-    cors({
-        origin: [
-            'http://localhost:5173',
-            'https://labb-3-skivregister.vercel.app'
-        ]
-    })
-)
 
 // Add this before server.use(router)
 server.use(
