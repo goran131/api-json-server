@@ -103,6 +103,16 @@
                             "year": "1994",
                             "medium": "LP",
                             "tracks": []
+                        },
+                        {
+                            "id": 5,
+                            "artist": "ZZ Top",
+                            "title": "Mescalero",
+                            "description": "",
+                            "coverImage": "/images/ZZ Top - Mescalero.jpg",
+                            "year": "2003",
+                            "medium": "CD",
+                            "tracks": []
                         }
                     ]
                 },
