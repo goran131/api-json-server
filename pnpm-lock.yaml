@@ -236,17 +236,6 @@ packages:
         engines: { node: '>= 0.6' }
         dev: false
 
-    /cors@2.8.5:
-        resolution:
-            {
-                integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
-            }
-        engines: { node: '>= 0.10' }
-        dependencies:
-            object-assign: 4.1.1
-            vary: 1.1.2
-        dev: false
-
     /debug@2.6.9:
         resolution:
             {
@@ -605,7 +594,6 @@ packages:
             chalk: 4.1.2
             compression: 1.7.4
             connect-pause: 0.1.1
-            cors: 2.8.5
             errorhandler: 1.5.1
             express: 4.18.2
             express-urlrewrite: 1.4.0
