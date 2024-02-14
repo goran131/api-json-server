@@ -1,7 +1,17 @@
 // See https://github.com/typicode/json-server#module
 const jsonServer = require('json-server')
+const cors = require('cors')
 
 const server = jsonServer.create()
+
+server.use(
+    cors({
+        origin: [
+            'http://localhost:5173',
+            'https://labb-3-skivregister.vercel.app'
+        ]
+    })
+)
 
 // Uncomment to allow write operations
 const fs = require('fs')
@@ -17,16 +27,7 @@ const router = jsonServer.router(db)
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
-
-server.use((req, res) => {
-    res.header(
-        'Access-Control-Allow-Origin',
-        'https://labb-3-skivregister.vercel.app'
-    )
-    res.header('Access-Control-Allow-Headers', '*')
-})
 // Add this before server.use(router)
-
 server.use(
     jsonServer.rewriter({
         '/api/*': '/$1',
