@@ -144,15 +144,15 @@
                                 },
                                 {
                                     "id": 3,
-                                    "name": "All Revved Up With No Place To Go"
+                                    "name": "All revved up with no place to go"
                                 },
                                 {
                                     "id": 4,
-                                    "name": "Two Out Of Three Ain't Bad"
+                                    "name": "Two out of three ain't bad"
                                 },
                                 {
                                     "id": 5,
-                                    "name": "Paradise By The Dash Board Light"
+                                    "name": "Paradise by the dashboard light"
                                 }
                             ]
                         },
@@ -175,7 +175,7 @@
                                 },
                                 {
                                     "id": 2,
-                                    "name": "Nowhere Fast"
+                                    "name": "Nowhere fast"
                                 },
                                 {
                                     "id": 3,
@@ -183,7 +183,7 @@
                                 },
                                 {
                                     "id": 4,
-                                    "name": "Piece Of The Action"
+                                    "name": "Piece of the action"
                                 },
                                 {
                                     "id": 5,
@@ -191,7 +191,7 @@
                                 },
                                 {
                                     "id": 6,
-                                    "name": "Cheatin' In Your Dreams"
+                                    "name": "Cheatin' in your dreams"
                                 },
                                 {
                                     "id": 7,
@@ -343,7 +343,7 @@
                             "title": "Back in black",
                             "medium": "CD",
                             "year": "1980",
-                            "description": "AC/DC:s sjunde studioalbum. Det första albumet med Brian Johnson på sång ",
+                            "description": "AC/DC:s sjunde studioalbum. Det första albumet med Brian Johnson på sång.",
                             "coverImage": "/images/AC-DC - Back in black.jpg",
                             "tracks": [
                                 {
